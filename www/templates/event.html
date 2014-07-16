@@ -1,0 +1,11 @@
+<ion-view title="Event">
+  <ion-content class="has-header">
+	<div class="card">
+    	<h1>{{event.name}}</h1>
+    	<span style="font-style: italic;" ng-bind-html="event.venue.name"></span>
+    	<br><br>
+    	<span ng-bind-html="event.description"></span>
+    	<!-- {{event}} -->
+    </div>
+  </ion-content>
+</ion-view>
